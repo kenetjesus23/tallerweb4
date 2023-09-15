@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario Numero 2</title>
+
+    <style>
+        h1{
+            color: red;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            margin-right: 10px; 
+        }
+
+        .container img{
+            margin-right: 10px;
+        }
+
+        input{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <form action="">
+    <fieldset>
+        <div class="container">
+            <img src="https://img2.freepng.es/20181117/rr/kisspng-logo-user-viva-life-style-information-design-5bf0a6a16b8413.8854598315424979534404.jpg" alt=""  width="90" height="70">
+            <h1>Employee Registration Form</h1>
+        </div> <br>
+        <!--validaciones-->
+        <div >
+        <input type="radio" name="opcion" value="Opción 1">Mr
+        <input type="radio" name="opcion" value="Opción 2">Mrs
+        <input type="radio" name="opcion" value="Opción 3">Ms 
+        </div><br>
+
+        First Name <input type="text" placeholder="First Name" pattern="(Mr|Ms)\s\w*"><br>
+        Last Name <input type="text" placeholder="Last Name" pattern="(Mr|Ms)\s\w*"><br>
+        Mail <input type="email" name="" id="" pattern=".+@cecar\.edu\.co"><br>
+        Address <input type="text" maxlength="100"><br>
+        City <input type="text"><br>
+        <label for="">State</label>
+
+        <select name="" id="">
+
+        <option value="">Gujarat</option>
+
+        <option value="">Macondo</option>
+
+        <option value="">Ginebra</option>
+
+        </select><br>
+
+        zip <input type="text"><br>
+        Upload Photo <input type="file"> <br> <br>
+
+        <button>Guardar cambios</button>
+        
+    </fieldset>
+    </form>
+</body>
+</html>

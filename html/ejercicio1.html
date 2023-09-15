@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo formulario Numero 1</title>
+</head>
+<body>
+    <!--Validaciones taller 4-->
+    <form action="">
+        <h1>Formulario 1</h1>
+    <fieldset>
+        <legend>Your details</legend>
+
+        1. Name <input type="text" pattern="[A-Za-z\s]+" placeholder="first and last name"><br>
+        2. Email <input type="email" name="" id="" placeholder="example@domain.com" maxlength="30"> <br>
+        3. Phone <input type="number" placeholder="Eg. +447500000000  "><br>
+    
+
+    </fieldset>
+
+    
+    <fieldset>
+        <legend> Delivery address</legend>
+        1. address <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        2. Post code <input type="text" pattern="[0-9]{6,8}"> <br>
+        3. Country <input type="text"> <br>
+
+    </fieldset>
+
+    <fieldset>
+        1. <fieldset>
+            <legend>Card type</legend>
+            1. <input type="radio" name="card-type" id="visa"> VISA <br>
+            2. <input type="radio" name="card-type" id="amex"> AmEx <br>
+            3. <input type="radio" name="card-type" id="mastercard"> Mastercard <br>
+        </fieldset><br>
+        2. Card number <input type="number" pattern="[0-9]{1,3}"><br>
+        3. Security code <input type="text" pattern="R[0-9]+"><br>
+        4. Name on card <input type="text">
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Enviar datos">
+    </fieldset>
+    
+    </form>
+</body>
+</html>
